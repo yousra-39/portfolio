@@ -1,0 +1,757 @@
+/*GENERAL*/
+body {
+  background-color: #FFFCF5;
+  font-family: "Sen";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  align-content: center;
+  
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+h1, h2, nav {
+  font-family: "Mansalva", sans-serif;
+  text-align: center;
+}
+
+ .asterisque  {
+  font-size: x-small;
+  list-style-type: none;
+  margin-left: 120px;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+
+.nodisc {
+  list-style: none;
+}
+
+.formation {
+   color:#374375;
+   background-color: #BABCE2;
+   border-radius: 40px;
+  max-width: 600px;
+  margin-top :20px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+}
+
+.pourpre {
+  color :#89515A;
+}
+
+.langues ul li {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+i {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.competences {
+  color: #FFFCF5;
+  background-color: #374375;
+  border-radius: 40px;
+}
+
+.experience {
+  color : #89515A;
+  background-color: #DFAEA0;
+  border-radius: 30px;
+  max-width: 480px;
+  padding-bottom: 20px;
+}
+
+.textright {
+  text-align: right;
+}
+.center {
+  justify-content: center;
+}
+
+.liens {
+  color : #89515A;
+}
+
+
+/*HEADER*/
+
+
+header {
+  backdrop-filter: blur(10px);
+  position: fixed; 
+  width: 100%;
+  top: 0; 
+  z-index: 1000; 
+}
+
+/*MENU*/
+
+nav ul li {
+  font-family: "Mansalva", sans-serif;
+  display: inline-block;
+  font-size: large;
+  margin-right: 30px;
+  
+}
+
+nav {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.travaux {
+  margin-top: 70px;
+  font-size: x-large;
+}
+
+.titretravaux {
+  justify-content: center;
+}
+
+
+/********************** VERSION ORDINATEUR ************************************************/
+@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1920px) {
+body {
+  background-color: #FFFCF5;
+  font-family: "Sen";
+}
+
+.margintop {
+  margin-top: 50px;;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  align-content: center;
+  margin-left : 30px;
+}
+
+
+
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+/*HEADER*/
+
+
+header {
+  backdrop-filter: blur(10px);
+  position: fixed; 
+  width: 100%;
+  top: 0; 
+  z-index: 1000; 
+}
+
+/*MENU*/
+
+nav ul li {
+  font-family: "Mansalva", sans-serif;
+  display: inline-block;
+  font-size: large;
+  margin-right: 30px;
+  
+}
+
+nav {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+
+/*MAIN*/
+
+main {
+  margin-top: 120px;
+  margin-left: 50px;
+  
+}
+
+/*ACCUEIL*/
+
+.accueil p {
+  max-width: 500px;
+  margin-right: 80px;
+}
+.grandtitre {
+  font-size: 40px;
+}
+
+
+
+ .asterisque  {
+  font-size: x-small;
+  list-style-type: none;
+  margin-left: 120px;
+  margin-top:50px;
+}
+
+/*FORMATION*/
+.formation {
+  background-color: #BABCE2;
+  border-radius: 40px;
+  max-width: 600px;
+  margin-top :20px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+}
+
+.formation h2, .formation li{
+  color:#374375;
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.formation h2 {
+  font-size: xx-large;
+
+}
+
+.formation img {
+  margin-top:20px;
+  object-fit: cover;
+height: 100%;
+width: 50px;
+margin-left: 30px;
+}
+
+.formation ul  {
+  font-size: small;
+}
+
+.formation ul li {
+  line-height :0.05em;
+}
+
+
+
+/*LANGUES*/
+.margin {
+  margin-left: 50px;
+  margin-top: 40px;
+
+}
+.pourpre {
+  color :#89515A;
+}
+.langues {
+  width: 450px;
+  
+}
+.langues h2 {
+  margin-bottom: 20px;
+}
+.langues img {
+  width: 40px;
+  height: 40px;
+}
+
+.langues ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+
+/*QUALITES*/
+
+i {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+
+/*COMPETENCES*/
+
+.competences {
+  color: #FFFCF5;
+  background-color: #374375;
+  border-radius: 40px;
+  min-width: 600px;
+  margin-top :20px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+}
+
+.competences h2 {
+  font-size: xx-large;
+}
+
+.competences {
+  font-size: small;
+}
+
+.competences ul {
+  margin-bottom : 40px;
+}
+
+.contenucompetences {
+  margin-left: 50px;
+}
+
+
+/*OUTILS*/
+
+.outils div {
+ margin-left: 25px;
+}
+.outils p {
+  background-color: #BABCE2;
+
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+/*EXPERIENCE*/
+.experience {
+  color : #89515A;
+  background-color: #DFAEA0;
+  border-radius: 30px;
+  max-width: 480px;
+ margin-left: 50px;
+ margin-top: 30px;
+ padding-bottom: 20px;
+}
+
+.experience p, .experience li {
+font-size: small;
+max-width: 400px;
+margin-left: 40px;
+}
+
+.experience p:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+.experience p:nth-child(3) {
+  line-height :0.05em;
+}
+
+
+/*TRAVAUX*/
+.travaux {
+  margin-top: 70px;
+}
+
+.titretravaux {
+  justify-content: center;
+}
+
+.pattes {
+  max-width: 60px;
+  height: 100%;
+  margin-top: 35px;
+}
+}
+
+  /*************************************************ICI*/
+.row {
+  flex-direction: row;
+}
+  .formation img { 
+    margin-top:20px;
+    margin-left: 30px;
+    object-fit: cover;
+    height: 100%;
+    width: 50px;
+  }
+
+  .columndesktop {
+    flex-direction: column;
+  }
+.rowdesktop {
+  flex-direction: row;
+
+}
+
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.langues img {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.langues h2 {
+  margin-left: 70px;
+}
+}
+
+/********************** VERSION MOBILE ************************************************/
+
+@media only screen and (max-width: 768px) {
+  /* Styles spécifiques pour les tablettes */
+  h1{
+    font-size: larger;
+  }
+
+.sectionimgacc{
+  margin: auto;
+}
+nav ul li {
+  font-size: medium;
+
+}
+  main {
+    margin-top: 150px;
+    margin-left: 20px;
+
+  }
+
+  .imageaccueil {
+    max-width: 400px;
+
+  }
+
+  .accueil p {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .grandtitre {
+    font-size: 30px;
+  }
+
+
+  .columnreverse {
+  flex-direction: column-reverse;
+   
+}
+
+.asterisque {
+  margin-bottom: 20px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.formation {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.formation ul {
+font-size: small;
+
+}
+
+.formation img { 
+  margin-top:10px;
+  margin-left: 35px;
+  object-fit: cover;
+  height: 100%;
+  width: 50px;
+}
+
+.langues {
+ margin: auto;
+}
+
+
+
+.langues img {
+  width: 60px;
+  height: 60px;
+}
+
+.drapeaux {
+    margin-right: 60px;
+}
+
+i {
+  margin-left: 60px;
+}
+
+.competences {
+  padding-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.competences p, .competences ul {
+  font-size: small;
+}
+
+.contenucompetences {
+  margin-left: 30px;
+}
+
+.outils div {
+ margin-left: 25px;
+}
+.outils p {
+  background-color: #BABCE2;
+
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px;
+}
+.outils {
+  margin-bottom: 30px;
+}
+.contenuoutils {
+  margin-right: 60px;
+  font-size: small;
+}
+
+/*EXPERIENCE*/
+.experience {
+  
+ margin-top: 30px;
+
+}
+
+.experience p, .experience li {
+font-size: small;
+max-width: 400px;
+margin-left: 40px;
+}
+
+.experience p:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+.experience p:nth-child(3) {
+  line-height :0.05em;
+}
+
+
+
+.pattes {
+  max-width: 40px;
+  height: 100%;
+  margin-top: 30px;
+}
+}
+
+
+/****CARDS****/
+.card {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 10px;
+            padding: 30px;
+            background-color: #89515ace;
+            color: #FFFCF5;
+        }
+
+        .card-header {
+            
+            color: #fff;
+            padding: 10px;
+            text-align: right;
+            font-size: 18px;
+        }
+
+        .card-img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;    
+        }
+        
+
+
+        .card-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 16px;
+        }
+
+        .btn {
+
+            bottom: 10px;
+            left: 10px;
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #5b373d;
+            color: #FFFCF5;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #43282d;
+        }
+
+        .button {
+            text-align: end;
+            all: unset;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+
+/**POPUP**/
+
+.popup {
+  font-size: 16px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accueilmed {
+  max-width: 100%; 
+  height: auto;
+}
+
+.accueildome {
+  max-width: 50%;
+  height: auto;
+}
+
+.connexionmed  {
+  max-width: 50%; height: auto;
+  margin: auto;
+}
+
+.logos {
+  height: 100%;
+  width: 100px;
+}
+
+.heure {
+  font-weight: bolder;
+}
+
+.travaux p {
+  font-size: 16px;
+}
+
+.logodome {
+  height: 100%;
+  width:55px;
+}
+
+.container { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.card { flex: 0 0 calc(33.33% - 10px); margin: 10px; }
+
+.highlight {
+color :#C39187;
+}
+
+.logosuaps {
+  height: 40px;
+
+}
+
+#accueil {
+  scroll-margin-top: 85px;
+}
+
+#apropos {
+  scroll-margin-top: 85px;
+}
+
+#travaux {
+  scroll-margin-top: 55px;
+}
+
+
+/*CONTACT*/ 
+
+.contact {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.email a {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.contacts {
+  justify-content: space-around;
+}
+
+.i {
+  font-size: larger;
+}
+.phone, .email  {
+  text-align: center;
+  
+}
+
+footer a, footer {
+  color: #89515A;
+}
+
+.pfooter {
+  text-align: center;
+  color: #89515A;
+}
+
+.legende {
+  font-size: 6px;
+  color: rgb(113, 113, 113);
+  text-align: end;
+  font-style: italic;
+}
+
